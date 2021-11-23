@@ -1,0 +1,287 @@
+/* Starting Of Navbar Section */
+html {
+    scroll-behavior: smooth;
+}
+
+
+.first-section{
+    background-color: #242582;
+    width: 100%;
+    overflow: hidden;
+}
+.navbar-light .navbar-brand > img{
+    width: 70px;
+    padding-bottom: 15px;
+}
+.navbar-expand-lg .navbar-nav{
+    margin-left: 50%;
+}
+.navbar-expand-lg .navbar-nav li{
+    padding-right: 30px;
+}
+.navbar-light .navbar-nav .nav-link{
+    text-decoration: none;
+}
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link{
+    color: #f64c72;
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #f64c72;
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link .fa{
+    border: 1px solid white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+    color: blue;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px ;
+}
+.navbar-light .navbar-nav .nav-link .fa:hover{
+    border: 1px solid #242582;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background:none;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px ;
+}
+/* Ending Of Navbar Section */
+/* Starting Of OverView Section */
+.overview-section{
+    background-color: #2f2fa2;
+}
+.overview-section .container-fluid{
+    margin-top: 50px;
+}
+.overview-section .container-fluid .row .img1{
+    border: 1px solid #f64c72;
+    border-radius: 40px;
+    background-image: url(../images/image1.png);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.overview-section .container-fluid .row .intro .data{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.overview-section .container-fluid .row .intro .data  > h1{
+    font-weight: bold;
+    color: white;
+}
+.overview-section .container-fluid .row .intro .data  > h1 > span{
+    color: #f64c72;
+}
+.overview-section .container-fluid .row .intro .data  > p{
+    color: white;
+}
+.overview-section .container-fluid .row .intro .data  > button{
+    background: none;
+    border: 2px solid #f64c72;
+    padding : 10px 40px;
+    border-radius: 5px ;
+    color: #fff;
+    font-weight: bold;
+}
+.list-group-item+.list-group-item{
+    cursor: text;
+}
+.overview-section .container-fluid .row .intro .data  > button:hover{
+    background-color: #f64c72;
+    border: 2px solid #f64c72;
+    padding : 10px 40px;
+    border-radius: 5px ;
+    color: #fff;
+    font-weight: bold;
+}
+.overview-section .container-fluid .row .intro .data  > button > i{
+    font-size: 20px;
+    padding-right: 10px;
+    color: #f64c72;
+}
+/* Ending Of OverView Section */
+/* starting of Separted div */
+.sebarated-div{
+    height: 98px;
+    background-color: #2f2fa2;
+}
+/* ending of Separted div */
+/* starting of skills section */
+.skills{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.skills .prod{
+    margin-bottom: 150px;
+}
+.skills .prod > h1{
+    color: #2f2fa2;
+    border-bottom: 2px solid #2f2fa2;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+.list-group-item.active{
+    background-color: #2f2fa2;
+}
+/* ending of skills section */
+/* starting of preview section */
+.preview{
+    padding-top: 50px;
+    background-color: #2f2fa2;
+    padding-bottom: 160px
+}
+
+.preview .prod > h1{
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+    padding-bottom: 10px;
+
+}
+.preview .links-for-include > ul > li {
+    display: inline;
+}
+.preview .links-for-include .content{
+    height: 400px;
+}
+.preview .links-for-include .content{
+    margin-top: 150px;
+}
+.preview .links-for-include .content .container .row .list-group .active{
+    background-color: #f64c72;
+    cursor: text;
+}
+
+.preview .links-for-include .content .container .row .list-group > button > a{
+    text-decoration: none;
+    color: #2f2fa2;
+    font-weight: bold;
+}
+/* ending of preview section */
+/* starting of about me div */
+.about-me{
+    background-color: white;
+    padding-bottom: 180px;
+}
+.about-me .head{
+    padding-top: 40px;
+}
+.about-me .head > h1{
+    border-bottom: 2px solid #2f2fa2;
+    padding-bottom: 20px;
+    display: inline-block;
+    color: #2f2fa2;
+}
+.about-me .about-me-details{
+    margin-top: 70px;
+}
+.about-me .about-me-details .container .row .img-class{
+    background-image: url(../images/my_img.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    border: 2px solid #2f2fa2;
+    background-size: cover;
+    border-top-left-radius: 10% ;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+.about-me .about-me-details .container .row .about-me-data{
+    overflow: hidden;
+    margin-top: 60px;
+}
+.about-me .about-me-details .container .row .about-me-data > h6{
+    color: #2f2fa2;
+    font-size: 20px;
+    font-weight: bold;
+}
+.about-me .about-me-details .container .row .about-me-data > h6 > span{
+    color: #f64c72;
+}
+/* ending of about me div */
+/* starting of contact us section */
+.contact-us{
+    background-color: #2f2fa2;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.contact-us .contact-head{
+    padding-bottom: 50px;
+}
+.contact-us .contact-head > h1{
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+.contact-us .contact-detail > i{
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #f64c72;
+}
+.contact-us .contact-detail > i > span{
+    color: #fff;
+    padding-left: 10px;
+}
+/* ending of contact us section */
+
+
+
+/* Starting of footer section */
+.footer-section{
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer-section > p{
+    font-size: 13px;
+    color: #C7C7C7;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+.footer-section > p > i{
+    color: #f64c72;
+}
+.footer-section > p > span{
+    color: #f64c72;
+}
+/* ending of footer section */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
